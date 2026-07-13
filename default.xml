@@ -20,6 +20,10 @@
            sync-c="true"
            sync-j="4" />
 
+  <remote name="gapps"
+        fetch="https://gitlab.com/Dutaiclik"
+        revision="lineage-20.0" />
+
   <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r75" />
   <contactinfo bugurl="go/repo-bug" />
 

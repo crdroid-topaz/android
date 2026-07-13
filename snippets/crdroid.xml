@@ -63,7 +63,7 @@
   <project path="hardware/qcom-caf/sm8550/display" name="crdroidandroid/android_hardware_qcom_display" groups="qcom" revision="13.0-caf-sm8550" />
 
   <project path="frameworks/av" name="crDroid-Resurrected/android_frameworks_av" groups="pdk" remote="crdroid" />
-  <project path="frameworks/base" name="crDroid-Resurrected/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
+  <project path="frameworks/base" name="crdroid-topaz/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="frameworks/libs/systemui" name="crdroidandroid/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="frameworks/native" name="crDroid-Resurrected/android_frameworks_native" groups="pdk" remote="crdroid" />
   <project path="frameworks/opt/telephony" name="crDroid-Resurrected/android_frameworks_opt_telephony" groups="pdk" remote="crdroid" />
@@ -114,6 +114,8 @@
 
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
   <project path="vendor/crDroidOTA" name="crdroidandroid/android_vendor_crDroidOTA" remote="crdroid" />
-  <project path="vendor/lineage" name="crDroid-Resurrected/android_vendor_crdroid" remote="crdroid" />
+  <project path="vendor/lineage" name="crdroid-topaz/android_vendor_crdroid" remote="crdroid" />
+  <project path="vendor/gms" name="vendor_gms" remote="gapps" />
+  <project path="hardware/xiaomi" name="LineageOS-T/android_hardware_xiaomi" revision="lineage-20" />
 
 </manifest>
